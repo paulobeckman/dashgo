@@ -58,7 +58,7 @@ export default function Home() {
             error={errors.password}
             {...register('password')}
           />
-        </Stack>
+        </Stack> 
         <Button type="submit" mt="6" colorScheme="pink" isLoading={formState.isSubmitting}>Entrar</Button>
       </Flex>
     </Flex>
